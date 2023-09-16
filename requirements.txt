@@ -1,0 +1,11 @@
+torch
+torchdata
+transformers
+datasets
+evaluate
+rouge_score
+loralib
+peft
+bitsandbytes
+scipy
+accelerate
