@@ -88,7 +88,7 @@ def get_tokenized_datasets(tokenizer, dataset):
     # The tokenize_function code is handling all data across all splits in batches.
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
     tokenized_datasets = tokenized_datasets.remove_columns(['id', 'topic', 'dialogue', 'summary',])
-    tokenized_datasets = tokenized_datasets.filter(lambda example, index: index % 90 == 0, with_indices=True)
+    tokenized_datasets = tokenized_datasets.filter(lambda example, index: index % 95 == 0, with_indices=True)
     print(tokenized_datasets)
     return tokenized_datasets
 

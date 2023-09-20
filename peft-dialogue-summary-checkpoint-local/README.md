@@ -6,5 +6,10 @@ library_name: peft
 ### Framework versions
 
 - PEFT 0.6.0.dev0
+- PEFT 0.6.0.dev0
+- PEFT 0.6.0.dev0
+- PEFT 0.6.0.dev0
+- PEFT 0.6.0.dev0
+- PEFT 0.6.0.dev0
 
 - PEFT 0.6.0.dev0
